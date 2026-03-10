@@ -32,7 +32,7 @@ Your own server, your own AI agent, ready to go. Powered by [OpenClaw](https://o
 
 ## 🎙 Why Us
 
-- **15× faster input** — Phone: unlock, open app, type (~60s). Pinclaw: tap, speak, done (~4s). Language is the most natural interface.
+- **5× faster input** — Phone: unlock, open app, type (~30s). Pinclaw: tap, speak, done (~6s). Language is the most natural interface.
 - **Your phone, unlocked** — Pinclaw talks directly to your iPhone. Calendar, reminders, contacts — your AI agent uses them without you ever touching the screen.
 - **No screen required** — Clip it on and forget it. Ask questions, set reminders, get updates — all hands-free, all voice.
 
