@@ -26,12 +26,27 @@ The first hardware product built for [OpenClaw](https://openclaw.ai). A tiny wea
 
 </div>
 
+<table>
+<tr>
+<td>
+
 ## Your Closest Agent.
 
 We built everything — your own server, your own AI agent, ready to go. Clip it on, speak naturally, and your agent schedules, remembers, researches, and acts on your behalf.
 
 - **Hardware for OpenClaw.** Your agent already lives in the cloud. Pinclaw brings it to the real world — always on, always listening.
 - **Your phone, unlocked.** A dedicated app that opens up your entire phone ecosystem. Like owning a mobile OpenClaw.
+
+</td>
+<td width="160" align="center">
+<img src="https://pinclaw.ai/logos/openclaw.svg" alt="OpenClaw" width="50" />
+<br/>
+<b>+</b>
+<br/>
+<img src="https://pinclaw.ai/logo.png" alt="Pinclaw" width="50" />
+</td>
+</tr>
+</table>
 
 ## ⚡ 15× Faster Input
 
