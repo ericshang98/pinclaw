@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://pinclaw.ai/logo.png" alt="Pinclaw" width="100" />
+  <a href="https://pinclaw.ai">
+    <img src="https://pinclaw.ai/og-image.png" alt="Pinclaw" width="600" />
+  </a>
 </p>
-
-<h1 align="center">Pinclaw</h1>
 
 <p align="center">
   <strong>The first hardware product built for <a href="https://openclaw.ai">OpenClaw</a>.</strong><br/>
@@ -61,7 +61,13 @@ openclaw gateway --force
   <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="40" />
 </a>
 
-## The Ecosystem
+For a complete setup guide, see the [documentation](https://pinclaw.ai/doc).
+
+## The Hardware
+
+<p align="center">
+  <img src="https://pinclaw.ai/hardware-clip.png" alt="Pinclaw Clip Hardware" width="500" />
+</p>
 
 | Layer | Component | Description |
 |-------|-----------|-------------|
@@ -92,12 +98,20 @@ openclaw gateway --force
 
 Your iPhone registers native capabilities as tools your AI agent can use:
 
+<p align="center">
+  <img src="https://pinclaw.ai/skills-screenshot.png" alt="Pinclaw Device Skills" width="300" />
+</p>
+
 | Skill | What the AI Can Do |
 |-------|--------------------|
 | **Calendar** | Read events, create meetings, check availability |
 | **Reminders** | Add tasks, mark complete, query lists |
+| **Contacts** | Search your contacts |
+| **Timer** | Set and cancel timers |
+| **Health** | Read health data summaries |
+| **Location** | Get your current location |
+| **HomeKit** | Control your smart home devices |
 | **Screenshot** | Capture and analyze what's on screen |
-| **Context** | Battery, location, time — passive awareness |
 
 Say "schedule lunch with Sarah tomorrow at noon" — your agent calls the Calendar API directly on your phone.
 
@@ -177,6 +191,7 @@ Join our [Discord](https://discord.gg/628R3FbV) to discuss ideas, report bugs, o
 | **Website** | [pinclaw.ai](https://pinclaw.ai) |
 | **iOS App** | [App Store](https://apps.apple.com/app/pinclaw/id6744145735) |
 | **Documentation** | [pinclaw.ai/doc](https://pinclaw.ai/doc) |
+| **Buy Pinclaw** | [pinclaw.ai/#pricing](https://pinclaw.ai/#pricing) |
 | **Discord** | [Join community](https://discord.gg/628R3FbV) |
 | **Twitter** | [@EricShang98](https://x.com/EricShang98) |
 | **OpenClaw** | [openclaw.ai](https://openclaw.ai) |
