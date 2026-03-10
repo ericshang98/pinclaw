@@ -122,10 +122,7 @@ pinclaw/
 └── docs/            Documentation
 ```
 
-Each subdirectory is also available as a standalone repository:
-- [`ericshang98/pinclaw-plugin`](https://github.com/ericshang98/pinclaw-plugin) — Install just the plugin
-- [`ericshang98/pinclaw-firmware`](https://github.com/ericshang98/pinclaw-firmware) — Build the firmware
-- [`ericshang98/pinclaw-hardware`](https://github.com/ericshang98/pinclaw-hardware) — 3D print the case
+Everything lives in this single repository. Clone it and you have the full ecosystem.
 
 ## Architecture
 
