@@ -33,25 +33,63 @@
 
 ---
 
-## What is Pinclaw?
+## Your Closest Agent.
 
-Pinclaw is a complete personal AI agent system. Not just a mic. Not just an app. A full ecosystem — hardware, software, and cloud — purpose-built for the [OpenClaw](https://openclaw.ai) platform.
+We built everything — your own server, your own AI agent, ready to go. Clip it on, speak naturally, and your agent schedules, remembers, researches, and acts on your behalf.
 
-Clip it on. Talk. Your AI agent hears you, thinks, and acts.
+**Hardware for OpenClaw.** Your agent already lives in the cloud. Pinclaw brings it to the real world — always on, always listening.
 
-```
-You speak → Pinclaw Clip → iPhone (BLE) → OpenClaw Plugin → AI Agent
-                                                                 ↓
-You hear  ← iPhone ← ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─  AI Response
-```
+**Your phone, unlocked.** A dedicated app that opens up your entire phone ecosystem. Like owning a mobile OpenClaw.
 
-### Why Pinclaw?
+## 15X Faster Input
 
-- **Purpose-built for OpenClaw** — Every layer is optimized for agent interaction, not retrofitted
-- **Your own AI** — Not a shared model. Your own agent instance, your own database, your own personality
-- **Open source** — Hardware designs, firmware, plugin — all MIT licensed, all hackable
-- **iPhone-native** — Works with your phone, not against it. No extra device to charge or carry
-- **Device skills** — Your AI can access your calendar, reminders, and more through native iPhone APIs
+Language is the most natural interface. Pinclaw makes it always available.
+
+| Method | Time |
+|--------|------|
+| Phone: unlock, open app, type | ~60s |
+| **Pinclaw: tap, speak, accurately transcribed** | **~4s** |
+
+*Estimated average time to send a 20-word request to an AI agent, from intent to delivery.*
+
+## Works With Every Claw
+
+Pinclaw integrates seamlessly with the entire OpenClaw ecosystem — cloud or self-hosted, plug in and go.
+
+| Platform | Type |
+|----------|------|
+| **OpenClaw** | Self-hosted, open source |
+| **KiloClaw** | Managed cloud |
+| **Clawi.ai** | Managed cloud |
+| **chowder.dev** | Managed cloud |
+| **ClawApp** | Managed cloud |
+| **EasyClaw** | Managed cloud |
+| **HostedClaws** | Managed cloud |
+| **ClawSimple** | Managed cloud |
+
+One plugin. Any platform. Your choice.
+
+## Device Skills
+
+Other AI hardware lives in a bubble — it can't see your calendar, doesn't know your contacts, and has no idea what you did today. Pinclaw is different.
+
+Enable Device Skills and your AI agent gains access to the data that already lives on your iPhone. Each skill requires your explicit permission.
+
+<p align="center">
+  <img src="https://pinclaw.ai/skills-screenshot.png" alt="Pinclaw Device Skills" width="280" />
+</p>
+
+| Skill | What Your Agent Can Do |
+|-------|-----------------------|
+| **Calendar** | View and create events, check availability |
+| **Reminders** | Manage tasks and to-do lists |
+| **Contacts** | Search your contacts |
+| **Timer** | Set and cancel timers |
+| **Health** | Read health data summaries |
+| **Location** | Get your current location |
+| **HomeKit** | Control your smart home devices |
+
+All data stays on your iPhone. You control every permission.
 
 ## Quick Start
 
@@ -71,16 +109,6 @@ openclaw gateway --force
 
 For a complete setup guide, see the [documentation](https://pinclaw.ai/doc).
 
-## The Ecosystem
-
-| Layer | Component | Description |
-|-------|-----------|-------------|
-| **Hardware** | [Pinclaw Clip](./hardware) | XIAO nRF52840 Sense — always-on mic, BLE streaming |
-| **Firmware** | [Pinclaw Firmware](./firmware) | Zephyr RTOS — audio capture, BLE protocol, power management |
-| **Plugin** | [@openclaw/pinclaw](./plugin) | OpenClaw channel — bridges iPhone to your AI agent |
-| **iPhone App** | [App Store](https://apps.apple.com/app/pinclaw/id6744145735) | Speech recognition, device skills, agent interaction |
-| **Cloud** | [pinclaw.ai](https://pinclaw.ai) | Managed OpenClaw instances for subscribers |
-
 ## Two Ways to Use
 
 ### Cloud Mode — Zero Setup
@@ -91,33 +119,13 @@ Buy the clip, download the app, subscribe. We run a dedicated OpenClaw instance 
 
 Run OpenClaw on your own machine. Install the plugin, connect via relay. Your AI, your rules, your hardware.
 
-```bash
-# Your machine, your agent
-openclaw plugin add @openclaw/pinclaw
-openclaw gateway --force
-# iPhone connects through relay — works from anywhere
-```
+## Core Technologies
 
-## Device Skills
+**BLE Audio Streaming** — High-quality audio streams wirelessly to your iPhone over Bluetooth Low Energy. Custom packet protocol with CRC32 integrity checks ensures every word is heard perfectly.
 
-Your iPhone registers native capabilities as tools your AI agent can use:
+**On-Device Speech Recognition** — Your voice is transcribed locally on your iPhone using Apple Speech framework. No audio leaves your device. Fast, accurate, and completely private.
 
-<p align="center">
-  <img src="https://pinclaw.ai/skills-screenshot.png" alt="Pinclaw Device Skills" width="300" />
-</p>
-
-| Skill | What the AI Can Do |
-|-------|--------------------|
-| **Calendar** | Read events, create meetings, check availability |
-| **Reminders** | Add tasks, mark complete, query lists |
-| **Contacts** | Search your contacts |
-| **Timer** | Set and cancel timers |
-| **Health** | Read health data summaries |
-| **Location** | Get your current location |
-| **HomeKit** | Control your smart home devices |
-| **Screenshot** | Capture and analyze what's on screen |
-
-Say "schedule lunch with Sarah tomorrow at noon" — your agent calls the Calendar API directly on your phone.
+**AI Agent Services** — Connect to Claude, GPT, and other frontier AI models through the OpenClaw platform. Specialized agents for scheduling, research, translation, and more.
 
 ## Repository Structure
 
@@ -141,41 +149,6 @@ pinclaw/
 ```
 
 Everything lives in this single repository. Clone it and you have the full ecosystem.
-
-## Architecture
-
-```
-┌──────────────┐     BLE      ┌──────────────────────────────┐
-│ Pinclaw Clip │ ──────────── │         iPhone App            │
-│ nRF52840     │              │                                │
-│ • Mic        │              │  • Apple STT + Deepgram        │
-│ • BLE 5.0    │              │  • Device Skills (Calendar...) │
-│ • Battery    │              │  • Context Awareness           │
-└──────────────┘              └──────────────┬─────────────────┘
-                                             │
-                                     Unified WebSocket
-                                             │
-                              ┌──────────────▼──────────────┐
-                              │      Pinclaw Cloud          │
-                              │      (Relay Server)         │
-                              └──────────────┬──────────────┘
-                                             │
-                              ┌──────────────▼──────────────┐
-                              │    @openclaw/pinclaw         │
-                              │    Plugin                    │
-                              │                              │
-                              │  • WebSocket Handler         │
-                              │  • Device Manager            │
-                              │  • AI Pipeline               │
-                              │  • Cron Scheduling           │
-                              │  • Server Tools              │
-                              └──────────────┬──────────────┘
-                                             │
-                              ┌──────────────▼──────────────┐
-                              │    OpenClaw Gateway          │
-                              │    Your Personal AI Agent    │
-                              └─────────────────────────────┘
-```
 
 ## Contributing
 
