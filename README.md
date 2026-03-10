@@ -31,16 +31,11 @@ We built everything — your own server, your own AI agent, ready to go. Clip it
 - **Hardware for OpenClaw.** Your agent already lives in the cloud. Pinclaw brings it to the real world — always on, always listening.
 - **Your phone, unlocked.** A dedicated app that opens up your entire phone ecosystem. Like owning a mobile OpenClaw.
 
-## 🎙 15× Faster Input
+## 🎙 Why Us
 
-Language is the most natural interface. Pinclaw makes it always available.
-
-```
-Phone: unlock → open app → type                          ~60s
-Pinclaw: tap → speak → accurately transcribed              ~4s
-```
-
-*Estimated average time to send a 20-word request to an AI agent, from intent to delivery.*
+- **15× faster input** — Phone: unlock, open app, type (~60s). Pinclaw: tap, speak, done (~4s). Language is the most natural interface.
+- **Your phone, unlocked** — Pinclaw talks directly to your iPhone. Calendar, reminders, contacts — your AI agent uses them without you ever touching the screen.
+- **No screen required** — Clip it on and forget it. Ask questions, set reminders, get updates — all hands-free, all voice.
 
 ## → Quick Start (30 sec)
 
