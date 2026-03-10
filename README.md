@@ -1,8 +1,10 @@
 <p align="center">
   <a href="https://pinclaw.ai">
-    <img src="https://pinclaw.ai/og-image.png" alt="Pinclaw" width="600" />
+    <img src="https://pinclaw.ai/logo.png" alt="Pinclaw" width="100" />
   </a>
 </p>
+
+<h1 align="center">Pinclaw</h1>
 
 <p align="center">
   <strong>The first hardware product built for <a href="https://openclaw.ai">OpenClaw</a>.</strong><br/>
@@ -63,11 +65,7 @@ openclaw gateway --force
 
 For a complete setup guide, see the [documentation](https://pinclaw.ai/doc).
 
-## The Hardware
-
-<p align="center">
-  <img src="https://pinclaw.ai/hardware-clip.png" alt="Pinclaw Clip Hardware" width="500" />
-</p>
+## The Ecosystem
 
 | Layer | Component | Description |
 |-------|-----------|-------------|
