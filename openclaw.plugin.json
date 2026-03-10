@@ -1,0 +1,9 @@
+{
+  "id": "pinclaw",
+  "channels": ["pinclaw"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
