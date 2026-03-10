@@ -31,7 +31,7 @@ We built everything — your own server, your own AI agent, ready to go. Clip it
 - **Hardware for OpenClaw.** Your agent already lives in the cloud. Pinclaw brings it to the real world — always on, always listening.
 - **Your phone, unlocked.** A dedicated app that opens up your entire phone ecosystem. Like owning a mobile OpenClaw.
 
-## 15× Faster Input
+## 🎙 15× Faster Input
 
 Language is the most natural interface. Pinclaw makes it always available.
 
@@ -42,7 +42,7 @@ Pinclaw: tap → speak → accurately transcribed              ~4s
 
 *Estimated average time to send a 20-word request to an AI agent, from intent to delivery.*
 
-## Quick Start (30 sec)
+## → Quick Start (30 sec)
 
 ```bash
 # Install the Pinclaw plugin for OpenClaw
@@ -58,7 +58,7 @@ openclaw gateway --force
 
 For a complete setup guide, see the [documentation](https://pinclaw.ai/doc).
 
-## Works With Every Claw
+## ☁️ Works With Every Claw
 
 Pinclaw integrates with the entire OpenClaw ecosystem — cloud or self-hosted, plug in and go.
 
@@ -71,7 +71,7 @@ Pinclaw integrates with the entire OpenClaw ecosystem — cloud or self-hosted, 
 
 One plugin. Any platform. Your choice.
 
-## Device Skills
+## 📲 Device Skills
 
 Other AI hardware lives in a bubble — it can't see your calendar, doesn't know your contacts, and has no idea what you did today. Pinclaw is different.
 
@@ -91,7 +91,7 @@ Other AI hardware lives in a bubble — it can't see your calendar, doesn't know
 
 > All data stays on your iPhone. You control every permission.
 
-## Two Ways to Use
+## 🔀 Two Ways to Use
 
 **Cloud Mode — Zero Setup**
 Buy the clip, download the app, subscribe. We run a dedicated OpenClaw instance for you — your own agent, your own database, managed by us.
@@ -99,7 +99,7 @@ Buy the clip, download the app, subscribe. We run a dedicated OpenClaw instance 
 **My OpenClaw Mode — Full Control**
 Run OpenClaw on your own machine. Install the plugin, connect via relay. Your AI, your rules, your hardware.
 
-## Core Technologies
+## 🔩 Core Technologies
 
 | Technology | Description |
 |-----------|-------------|
@@ -107,13 +107,13 @@ Run OpenClaw on your own machine. Install the plugin, connect via relay. Your AI
 | **On-Device Speech Recognition** | Transcribed locally on iPhone using Apple Speech. No audio leaves your device. |
 | **AI Agent Services** | Connect to Claude, GPT, and other frontier models through the OpenClaw platform. |
 
-## In this repo:
+## 📂 In this repo:
 
 - [plugin](plugin) — OpenClaw channel plugin (`@openclaw/pinclaw`), TypeScript
 - [firmware](firmware) — Zephyr RTOS firmware for XIAO nRF52840 Sense, C
 - [hardware](hardware) — 3D case designs (Fusion 360 / STL), PCB files
 
-## Documentation:
+## 📖 Documentation:
 
 - [Introduction](https://pinclaw.ai/doc)
 - [Getting Started](https://pinclaw.ai/doc?tab=getting-started)
@@ -121,12 +121,12 @@ Run OpenClaw on your own machine. Install the plugin, connect via relay. Your AI
 - [Plugin Development](https://pinclaw.ai/doc?tab=plugin)
 - [API Reference](https://pinclaw.ai/doc?tab=reference)
 
-## Contributions
+## 🤝 Contributions
 
 - Check out the [current issues](https://github.com/ericshang98/pinclaw/issues).
 - Join the [Discord](https://discord.gg/628R3FbV).
 - Fork, branch, and open a Pull Request.
 
-## Licensing
+## 📄 Licensing
 
 Pinclaw is available under <a href="https://github.com/ericshang98/pinclaw/blob/main/LICENSE">MIT License</a>
