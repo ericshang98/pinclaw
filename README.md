@@ -36,19 +36,16 @@ Your own server, your own AI agent, ready to go. Powered by [OpenClaw](https://o
 - **Your phone, unlocked** — Pinclaw talks directly to your iPhone. Calendar, reminders, contacts — your AI agent uses them without you ever touching the screen.
 - **No screen required** — Clip it on and forget it. Ask questions, set reminders, get updates — all hands-free, all voice.
 
-## → Quick Start (30 sec)
+## 🛠 Quick Start
 
 ```bash
-# Install the Pinclaw plugin for OpenClaw
 openclaw plugin add @openclaw/pinclaw
-
-# Start your agent
 openclaw gateway --force
-
-# That's it. Download the iOS app, connect, and go.
 ```
 
 [<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="50px" width="180px">](https://apps.apple.com/app/pinclaw/id6744145735)
+
+→ [Full setup guide](https://pinclaw.ai/doc?tab=getting-started)
 
 For a complete setup guide, see the [documentation](https://pinclaw.ai/doc).
 
