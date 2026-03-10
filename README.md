@@ -25,6 +25,12 @@
   <a href="https://x.com/EricShang98"><img src="https://img.shields.io/twitter/follow/EricShang98?style=social" alt="Twitter" /></a>
 </p>
 
+<p align="center">
+  <a href="https://pinclaw.ai">
+    <img src="https://pub-6f7c1879412045ad8bf9eef70f06652d.r2.dev/pinclaw/gallery-1.webp" alt="Pinclaw wearable AI clip" width="600" />
+  </a>
+</p>
+
 ---
 
 ## What is Pinclaw?
