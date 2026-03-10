@@ -1,11 +1,9 @@
 <div align="center">
 
-<a href="https://pinclaw.ai">
-  <img src="https://pinclaw.ai/logo.png" alt="Pinclaw" width="50" />
-  <img src="./assets/pinclaw-title.svg" alt="PinClaw" height="40" />
-</a>
+<img src="./assets/pinclaw-logo.png" alt="Pinclaw" width="50" />
+<img src="./assets/pinclaw-title.svg" alt="PinClaw" height="40" />
 
-[pinclaw.ai](https://pinclaw.ai)
+<a href="https://pinclaw.ai">pinclaw.ai</a>
 
 The first hardware product built for [OpenClaw](https://openclaw.ai). A tiny wearable AI clip — always listening, always acting, powered by your own AI agent.
 
