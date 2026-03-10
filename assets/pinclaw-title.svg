@@ -1,4 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="44" viewBox="0 0 200 44">
-  <text x="0" y="36" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-weight="700" font-size="40" fill="white">Pin</text>
-  <text x="76" y="36" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-weight="700" font-size="40" fill="#FB0200">Claw</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="44" viewBox="0 0 170 44">
+  <text x="0" y="36" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-weight="700" font-size="40" fill="white">Pin<tspan fill="#FB0200">Claw</tspan></text>
 </svg>

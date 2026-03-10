@@ -5,6 +5,8 @@
   <img src="./assets/pinclaw-title.svg" alt="PinClaw" height="40" />
 </a>
 
+[pinclaw.ai](https://pinclaw.ai)
+
 The first hardware product built for [OpenClaw](https://openclaw.ai). A tiny wearable AI clip — always listening, always acting, powered by your own AI agent.
 
 <p align="center">
