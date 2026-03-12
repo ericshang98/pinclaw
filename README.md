@@ -18,7 +18,7 @@ The first hardware product built for [OpenClaw](https://openclaw.ai). A tiny wea
 
 <h3>
 
-[Website](https://pinclaw.ai) | [App Store](https://apps.apple.com/app/pinclaw/id6744145735) | [Docs](https://pinclaw.ai/doc) | [Buy Pinclaw](https://pinclaw.ai/#pricing)
+[Website](https://pinclaw.ai) | [App Store](https://apps.apple.com/app/pinclaw/id6760344343) | [Docs](https://pinclaw.ai/doc) | [Buy Pinclaw](https://pinclaw.ai/#pricing)
 
 </h3>
 
@@ -43,7 +43,7 @@ openclaw plugin add @openclaw/pinclaw
 openclaw gateway --force
 ```
 
-[<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="50px" width="180px">](https://apps.apple.com/app/pinclaw/id6744145735)
+[<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="50px" width="180px">](https://apps.apple.com/app/pinclaw/id6760344343)
 
 → [Full setup guide](https://pinclaw.ai/doc?tab=getting-started)
 
